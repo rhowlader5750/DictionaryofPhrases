@@ -1,0 +1,7 @@
+We have made the overleaf project and shared with both the professor and the TA 
+
+We have also created a few files for the project to have a clear structure moving foward 
+
+Next Steps:
+
+Have the clean text file and suffix tree to be completed. 
