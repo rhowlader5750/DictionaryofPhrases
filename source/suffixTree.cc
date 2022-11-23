@@ -1,0 +1,1 @@
+//this file will take the cleaned text and create a suffix tree so that the common phrases can be identified
