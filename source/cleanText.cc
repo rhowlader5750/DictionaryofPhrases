@@ -19,6 +19,9 @@ std::string clean_book(std::string book)
 
     for (char c : book) // loop through each character in the book
     {
+        if(c == '\r' || c == '\n' || c == '\t' || c == '\v' || c == '\f'){
+            c = ' ';
+        }
         if(!std::isalpha(c) && !std::isspace(c))
         {
             c = ' ';

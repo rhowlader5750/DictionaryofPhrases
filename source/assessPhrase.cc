@@ -58,10 +58,12 @@ void writeOutputFile(const map<string, int>& phrases, const string& filename) {
 int main() {
   // Read the input file and find all the common phrases
   set<string> words = readInputFile("cleaned_book.txt");
+  cout << "The input file has been read and we have found " << words.size() << " words." << endl;
   map<string, int> phrases = findCommonPhrases(words);
-
+  cout << "Taking in the words from the input file, we have found " << phrases.size() << " common phrases." << endl;
   // Write the common phrases and their frequencies to the output file
   writeOutputFile(phrases, "output.txt");
+  cout << "The common phrases and their frequencies have been written to the output file." << endl;
 
   return 0;
 }
