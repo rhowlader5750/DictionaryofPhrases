@@ -1,0 +1,5 @@
+This week the team completed cleaning the book and having it rewritten in another file with all lowercase text and no punctuations. The assess file is also near completion. 
+
+A screenshot of the new file has been added to the results folder. 
+
+The next step is to complete the presentation for class and also have the suffix code working. 
