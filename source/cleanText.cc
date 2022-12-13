@@ -1,3 +1,6 @@
+//https://www.scaler.com/topics/removing-whitespace-from-a-string-in-cpp/
+//https://stackoverflow.com/questions/8573455/regex-for-selecting-every-white-space
+//https://www.geeksforgeeks.org/regex-regular-expression-in-c/
 #include <iostream>
 #include <fstream>
 #include <regex>
