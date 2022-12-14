@@ -11,7 +11,7 @@ string clean_text(const string& text)
     // Create regular expressions for matching punctuation, whitespace, and multiple spaces
     regex regex_punctuation("[^a-z]");
     regex regex_whitespace("\\s+");
-   // regex pattern("[ \t\r\n]+");
+    regex pattern("[ \t\r\n]+");
        
 
     // Remove punctuation and convert to lowercase
@@ -20,7 +20,7 @@ string clean_text(const string& text)
 
     // Remove multiple spaces
     cleaned = regex_replace(cleaned, regex_whitespace, " ");
-    // cleaned = regex_replace(cleaned, pattern, " ");
+   cleaned = regex_replace(cleaned, pattern, " ");
 
     // Return the cleaned text
     return cleaned;
@@ -81,21 +81,21 @@ void writeOutputFile(const map<string, int>& phrases, const string& filename) {
 int main() {
   // Read the input file and find all the common phrases
   
-  //  ifstream input_file("wordfrequency.txt");
-  //   ofstream output_file("cleaned.txt");
-  //   regex regex_whitespace("\\s+");
+   ifstream input_file("wordfrequency.txt");
+    ofstream output_file("cleaned.txt");
+    regex regex_whitespace("\\s+");
 
-  //   // Read the input file line by line
-  //   string line;
-  //   while (getline(input_file, line))
-  //   {
-  //       // Clean the line
-  //       string cleaned = clean_text(line);
-  //       cleaned = regex_replace(cleaned, regex_whitespace, " ");
+    // Read the input file line by line
+    string line;
+    while (getline(input_file, line))
+    {
+        // Clean the line
+        string cleaned = clean_text(line);
+        cleaned = regex_replace(cleaned, regex_whitespace, " ");
        
-  //       // Write the cleaned line to the output file, replacing the end of line with a space
-  //       output_file << cleaned << " ";
-  //   }
+        // Write the cleaned line to the output file, replacing the end of line with a space
+        output_file << cleaned << " ";
+    }
   set<string> words = readInputFile("cleaned.txt");
   cout << "The input file has been read and we have found " << words.size() << " words." << endl;
   map<string, int> phrases = findPhrases(words);

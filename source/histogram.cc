@@ -13,6 +13,7 @@ using namespace std;
 map<string, int> commonPhrases(const string& phrase, const string& book){
 //    ifstream input(filename);
 //    string phrase;
+ofstream output("hist.txt");
    string subject(book);
    map<string, int> wordCounts;
  
@@ -38,12 +39,10 @@ map<string, int> commonPhrases(const string& phrase, const string& book){
         //cout<< i <<endl;
    // }
     //print the map into a file
-    ofstream output("hist.txt");
+    
     for (const auto& kvp : wordCounts) {
-        if(kvp.second > 3){
         output << kvp.first << ": " << kvp.second << endl;
         //cout << kvp.first << ": " << kvp.second << endl;
-        }
     }
    return wordCounts;
 }
@@ -51,7 +50,7 @@ map<string, int> commonPhrases(const string& phrase, const string& book){
 int main(){
     string phrase;
     string book = "";
-   ifstream input("outputs.txt");
+   ifstream input("wordfrequency.txt");
     ifstream input2("outputClean.txt");
     while(getline(input2, book)){
         book+=book;
