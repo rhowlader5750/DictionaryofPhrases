@@ -10,8 +10,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//
-//map<string, int> 
 string reWrite(string book, const string& frequentwords){
 
   ifstream input(frequentwords);

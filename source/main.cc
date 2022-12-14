@@ -29,18 +29,14 @@ int main() {
     string cleaned;
     cleaned = clean("books/HP1.txt");
     out << cleaned;
-  cleaned = clean("books/HP2.txt");
-  out << cleaned;
-  cleaned = clean("books/HP3.txt");
-  out << cleaned;
-   cout << "Done cleaning a Harry Potter books." << endl;
+    cleaned = clean("books/HP2.txt");
+    out << cleaned;
+    cleaned = clean("books/HP3.txt");
+    out << cleaned;
+   cout << "Done cleaning 3 Harry Potter books." << endl;
   
-  //making a dictionary of the most common words from the 3 books
     dictionary("outputClean.txt");
- 
-    // string book;
-    // ifstream input2("outputClean.txt");
-    // getline(input2, book);
+
     string lookAt = reWrite(cleaned, "nofrequency.txt");
     cout << "Rewrote book after ommiting non frequent words." << endl;
     
@@ -59,8 +55,5 @@ int main() {
             outputFinal << p.first << ": " << p.second << endl;
     }
     cout << "Done cleaning data." << endl;
-
-
-
   return 0;
 }

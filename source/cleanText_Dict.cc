@@ -9,7 +9,6 @@ using namespace std;
 
 void dictionary(const string& filename) {
   map<string, int> wordCounts;
-  map<string, int> wordCountsone;
 
   // Open the input file
   ifstream in(filename);
