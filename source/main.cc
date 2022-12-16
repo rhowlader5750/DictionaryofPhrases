@@ -34,19 +34,10 @@ int main() {
     unordered_map<string, int> phrases;
      phrases = getSubstrings(cleaned, dict);
     for(auto i: phrases){
-        if(i.second > 1)
-            output << i.first << ": " << i.second << endl;
+      output << i.first << ": " << i.second << endl;
     }
     cout << "Done finding common phrases." << endl;
 
-    //encode the phrases
-    ofstream outputFinal("encodedPhrases.txt");
-    unordered_map<string, int> encodedPhrases = encodingPhrases(phrases, dict);
-    for(auto i: encodedPhrases){
-        if(i.second > 1)
-            outputFinal << i.first << ": " << i.second << endl;
-    }
-    cout << "Done encoding common phrases." << endl;
 
     // Stop the clock
     clock_t end = clock();

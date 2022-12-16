@@ -25,8 +25,9 @@ unordered_map<string, int> moreThanOne(unordered_map<string, int> wordCounts){
   return newMap;
 }
 
-unordered_map<string, int> encodingPhrases(unordered_map<string, int> phrases, unordered_map<string, int> dict){
+unordered_map<string, int> encodingPhrases(vector<pair<string, int>>& phrases, unordered_map<string, int> dict){
   unordered_map<string, int> newMap;
+  int k = 500;
   for(auto& i: phrases){
     string phrase = i.first;
     stringstream ss(phrase);
@@ -39,51 +40,10 @@ unordered_map<string, int> encodingPhrases(unordered_map<string, int> phrases, u
         newPhrase += "0 ";
       }
     }
-    newMap.insert({newPhrase, i.second});
+    k++;
+    newMap.insert({newPhrase, k});
   }
   return newMap;
-}
-
-
-unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words){
-    unordered_map<string, int> substrings;
-    int count = 0;
-    // iterate through the string
-    for (int i = 0; i < str.size(); i++)
-    {
-        string substring = "";
-        // iterate through the string starting from the current character
-        // and check if each word exists in the unordered map
-        for (int j = i; j < str.size(); j++)
-        {
-            string word = "";
-            // extract the word at the current position
-            while (j < str.size() && str[j] != ' '){
-                word += str[j++];
-            }
-            i = j;
-            // if the word exists in the unordered map, add it to the substring
-            if (words.find(word) != words.end()){
-                substring += word + " ";
-            }
-            //if the word does not exist in the unordered map, but it is the first word in the substring, add it to the substring as a 0
-            else if(!(words.find(word) != words.end()) && (count < 1)){
-                count++;
-                substring += "0 ";
-            }
-            //if the word does not exist in the unordered map, break the loop
-            else{
-                break;
-            }
-        }
-        // add the substring to the list of substrings
-        if (substring != ""){
-            ++substrings[substring];
-            count = 0;
-        }
-    }
-    unordered_map<string, int> newMap = moreThanOne(substrings);
-    return newMap;
 }
 
 unordered_map<string, int> encoding(vector<pair<string, int>>& dictionary){
@@ -123,6 +83,59 @@ vector<pair<string, int>> sort(unordered_map<string, int>& words){
   }
   sort(vec.begin(), vec.end(), cmp);
   return vec;
+}
+
+unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words){
+  ofstream out("substrings.txt");
+    unordered_map<string, int> substrings;
+    int count = 0;
+    // iterate through the string
+    for (int i = 0; i < str.size(); i++)
+    {
+        string substring = "";
+        // iterate through the string starting from the current character
+        // and check if each word exists in the unordered map
+        for (int j = i; j < str.size(); j++)
+        {
+            string word = "";
+            // extract the word at the current position
+            while (j < str.size() && str[j] != ' '){
+                word += str[j++];
+            }
+            i = j;
+            // if the word exists in the unordered map, add it to the substring
+            if (words.find(word) != words.end()){
+                substring += word + " ";
+            }
+            //if the word does not exist in the unordered map, but it is the first word in the substring, add it to the substring as a 0
+            else if(!(words.find(word) != words.end()) && (count < 1)){
+                count++;
+                substring += "0 ";
+            }
+            //if the word does not exist in the unordered map, break the loop
+            else{
+                break;
+            }
+        }
+        // add the substring to the list of substrings
+        if (substring != ""){
+            ++substrings[substring];
+            count = 0;
+        }
+    }
+    unordered_map<string, int> checkIfPhrase = moreThanOne(substrings);
+    unordered_map<string, int> withFreq;
+    for(auto& i: checkIfPhrase){
+      if(i.second > 1){
+        withFreq.insert(i);
+      }
+    }
+    vector<pair<string, int>> sorted = sort(withFreq);
+    for(auto& i: sorted){
+      out << i.first << ": " << i.second << endl;
+    }
+    checkIfPhrase = encodingPhrases(sorted, words);
+    return checkIfPhrase;
 }
 
 unordered_map<string, int> dictionary(string book) {
