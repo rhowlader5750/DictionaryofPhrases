@@ -1,884 +1,240 @@
- 0 : 1626
- 0 a : 71
- 0 a few : 4
- 0 a large : 2
- 0 about : 2
- 0 after : 5
- 0 again : 2
- 0 against : 3
- 0 against his : 2
- 0 against the : 9
- 0 against the dark : 2
- 0 all : 2
- 0 all the : 3
- 0 an : 7
- 0 and : 185
- 0 and a : 11
- 0 and an : 2
- 0 and harry : 2
- 0 and he : 3
- 0 and he was : 6
- 0 and his : 2
- 0 and more : 2
- 0 and the : 7
- 0 and then : 2
- 0 and very : 4
- 0 another : 3
- 0 around : 3
- 0 around the : 5
- 0 as : 9
- 0 as a : 2
- 0 as harry : 2
- 0 as he : 4
- 0 as the : 3
- 0 as they : 8
- 0 as though : 3
- 0 at : 9
- 0 at a : 2
- 0 at his : 4
- 0 at ron : 2
- 0 at the : 12
- 0 aunt : 5
- 0 back to : 2
- 0 be : 10
- 0 been : 2
- 0 before : 2
- 0 black : 4
- 0 but : 10
- 0 but he : 2
- 0 but i : 2
- 0 but the : 3
- 0 by : 8
- 0 by a : 2
- 0 by his : 2
- 0 by the : 9
- 0 by the time the : 2
- 0 came : 2
- 0 can i : 2
- 0 chapter : 2
- 0 come : 2
- 0 do it good : 2
- 0 dont : 3
- 0 down the : 3
- 0 dumbledore : 2
- 0 even : 2
- 0 every : 4
- 0 everyone : 2
- 0 expecto : 2
- 0 eyes : 7
- 0 face : 3
- 0 face had : 2
- 0 for : 12
- 0 for a : 3
- 0 for the : 7
- 0 for their : 2
- 0 from : 13
- 0 from a : 4
- 0 from her : 2
- 0 from his : 3
- 0 from the : 9
- 0 front : 2
- 0 gave a : 2
- 0 go : 3
- 0 good : 3
- 0 got : 3
- 0 got a : 4
- 0 got to : 3
- 0 had : 22
- 0 had been : 4
- 0 hagrid : 3
- 0 hagrid said hermione : 2
- 0 hand : 2
- 0 harry : 52
- 0 harry couldnt : 2
- 0 harry harry : 2
- 0 harry ron and hermione : 3
- 0 harry was : 3
- 0 harrys : 4
- 0 has : 3
- 0 he : 52
- 0 he had : 4
- 0 he had been : 3
- 0 he said : 4
- 0 he was : 9
- 0 her : 16
- 0 hermione : 11
- 0 hes : 4
- 0 him : 10
- 0 him a : 2
- 0 him down : 2
- 0 him harry : 2
- 0 him his : 2
- 0 him on the : 2
- 0 himself : 2
- 0 his : 45
- 0 his head : 2
- 0 his wand : 2
- 0 how : 2
- 0 i : 21
- 0 i dont : 2
- 0 i must : 2
- 0 i think : 2
- 0 if : 4
- 0 if all : 2
- 0 if he : 2
- 0 if you : 2
- 0 im : 3
- 0 in : 30
- 0 in a : 11
- 0 in and out of : 2
- 0 in harrys : 3
- 0 in her : 2
- 0 in his : 11
- 0 in the : 30
- 0 into : 14
- 0 into a : 2
- 0 into his : 7
- 0 into the : 20
- 0 into their : 2
- 0 is : 5
- 0 it : 16
- 0 it was : 5
- 0 it was a : 2
- 0 it was an : 2
- 0 it was the : 4
- 0 its : 14
- 0 its the : 2
- 0 ive : 2
- 0 ive been : 2
- 0 just : 2
- 0 last : 2
- 0 left : 2
- 0 like : 6
- 0 like a : 2
- 0 looking : 2
- 0 lupin : 8
- 0 madam : 8
- 0 malfoy : 2
- 0 malfoy to : 2
- 0 me : 5
- 0 me a : 2
- 0 me up the : 2
- 0 more : 5
- 0 mr weasley : 2
- 0 my : 12
- 0 neville : 5
- 0 next : 3
- 0 no : 9
- 0 not : 4
- 0 nothing : 2
- 0 now : 4
- 0 of : 98
- 0 of a : 4
- 0 of harrys : 2
- 0 of her : 2
- 0 of his : 6
- 0 of magic : 2
- 0 of the : 22
- 0 of them : 2
- 0 of your : 3
- 0 off his : 4
- 0 off the : 2
- 0 oh : 2
- 0 old : 2
- 0 on : 21
- 0 on his : 6
- 0 on it : 2
- 0 on the : 23
- 0 on their : 3
- 0 on your : 2
- 0 one : 5
- 0 one of the : 2
- 0 only : 2
- 0 onto : 3
- 0 onto her : 2
- 0 onto the : 3
- 0 or : 12
- 0 out at : 2
- 0 out of : 3
- 0 out of a : 2
- 0 out of the : 4
- 0 out of their : 2
- 0 over : 3
- 0 over and : 3
- 0 over the : 5
- 0 professor : 13
- 0 put : 2
- 0 quidditch : 3
- 0 ron : 11
- 0 ron was : 2
- 0 room : 3
- 0 said : 11
- 0 said black : 2
- 0 said dumbledore : 6
- 0 said george : 2
- 0 said hagrid : 3
- 0 said harry : 9
- 0 said hermione : 5
- 0 said lupin : 4
- 0 said madam : 2
- 0 said percy : 2
- 0 said professor : 2
- 0 said ron : 5
- 0 said snape : 2
- 0 say : 2
- 0 she : 14
- 0 she said : 2
- 0 snape : 3
- 0 so : 3
- 0 so that the : 2
- 0 something : 5
- 0 still : 4
- 0 than : 3
- 0 that : 12
- 0 that had : 2
- 0 that harry : 3
- 0 that he : 3
- 0 that hed : 2
- 0 that i : 3
- 0 that looked like : 2
- 0 that the : 2
- 0 the : 210
- 0 the gryffindor : 2
- 0 the table : 2
- 0 their : 14
- 0 them : 2
- 0 then : 6
- 0 then she : 2
- 0 there : 2
- 0 there was a : 5
- 0 they : 14
- 0 they had : 2
- 0 they were : 2
- 0 this : 14
- 0 three : 3
- 0 through : 2
- 0 through his : 2
- 0 through the : 7
- 0 to : 60
- 0 to a : 3
- 0 to be : 3
- 0 to gryffindor : 4
- 0 to his : 6
- 0 to me : 2
- 0 to the : 9
- 0 too : 4
- 0 toward the : 4
- 0 trying to : 4
- 0 two : 3
- 0 uncle vernon : 2
- 0 up : 6
- 0 up at : 2
- 0 up the : 3
- 0 up to : 2
- 0 us : 2
- 0 very : 7
- 0 voice : 4
- 0 wand : 2
- 0 was : 57
- 0 was still : 4
- 0 was the : 3
- 0 we : 7
- 0 we were : 2
- 0 we will be : 2
- 0 well : 4
- 0 were : 21
- 0 were not : 3
- 0 what : 4
- 0 what are you : 3
- 0 where the : 2
- 0 which : 3
- 0 who : 3
- 0 who had : 2
- 0 who was : 4
- 0 why : 2
- 0 with : 24
- 0 with a : 10
- 0 with an : 2
- 0 with his : 6
- 0 with the : 6
- 0 with the gryffindor : 2
- 0 wood : 3
- 0 would : 3
- 0 would have : 2
- 0 yeh : 2
- 0 yes said neville : 2
- 0 you : 13
- 0 you are : 2
- 0 your : 13
- 0 youre : 2
- a 0 : 101
- a 0 and : 4
- a 0 from the : 2
- a 0 in : 2
- a 0 in the : 2
- a 0 of : 30
- a 0 of the : 3
- a few 0 : 2
- a large 0 : 2
- a large 0 of : 2
- a little 0 : 2
- a long 0 : 4
- a look of 0 : 2
- about 0 : 10
- about a 0 : 2
- about his 0 : 3
- about the 0 : 2
- after him 0 : 2
- again 0 : 5
- again good 0 harry : 2
- against the 0 : 5
- against the dark 0 : 5
- all 0 : 5
- all 0 of : 2
- all right but 0 : 2
- all the 0 : 2
- an 0 : 23
- and 0 : 130
- and 0 a : 8
- and 0 and : 5
- and 0 but : 2
- and 0 down the : 2
- and 0 from : 2
- and 0 had : 2
- and 0 had all : 2
- and 0 harry : 4
- and 0 he : 3
- and 0 him : 3
- and 0 his : 7
- and 0 his eyes : 2
- and 0 in : 2
- and 0 it : 5
- and 0 looking : 2
- and 0 of : 3
- and 0 on : 2
- and 0 out to : 2
- and 0 that : 2
- and 0 the : 18
- and 0 them : 2
- and 0 to : 7
- and 0 up his : 3
- and 0 with a : 4
- and 0 you : 2
- and a 0 : 8
- and a 0 of : 3
- and harry 0 : 2
- and he 0 : 4
- and his 0 : 2
- and i 0 : 2
- and it was 0 : 2
- and its 0 : 3
- and out of 0 : 2
- and the 0 : 22
- and the 0 had : 2
- and then 0 : 2
- and then 0 to : 2
- and there was a 0 of : 2
- and they 0 : 2
- and was 0 : 3
- another 0 : 2
- any 0 of : 2
- are 0 to : 3
- around 0 : 4
- around 0 the : 2
- around her 0 : 2
- around the 0 : 6
- as 0 : 11
- as 0 as : 3
- as 0 of : 2
- as harry 0 the : 2
- as he 0 : 4
- as the 0 : 12
- as the 0 of the : 3
- as they 0 : 2
- as they 0 the : 2
- as though 0 had : 2
- at 0 : 20
- at his 0 : 2
- at the 0 : 9
- at the 0 of : 3
- at the 0 of the : 4
- aunt 0 : 9
- aunt 0 had : 2
- aunt 0 was : 2
- away 0 the : 3
- back as the 0 : 2
- back into the 0 : 3
- be 0 : 2
- be 0 to : 2
- before 0 : 4
- before 0 the : 2
- behind a 0 of : 2
- behind the 0 : 4
- black 0 : 13
- black 0 the : 2
- but 0 : 4
- but 0 had : 2
- but 0 the : 3
- but harry 0 to : 2
- but i 0 : 3
- but the 0 : 2
- by 0 : 10
- by 0 the : 2
- by a 0 : 3
- by the 0 : 4
- chapter 0 : 3
- chapter 0 the : 5
- come on 0 : 2
- couldnt 0 : 2
- down 0 : 3
- down and 0 a : 2
- down on 0 : 2
- down the 0 : 5
- down the 0 and : 2
- down the 0 to the : 2
- down to 0 his : 2
- even 0 : 2
- ever 0 : 4
- ever 0 the : 3
- everyone 0 : 2
- eyes 0 with : 2
- eyes were 0 : 2
- feet 0 the : 2
- first 0 : 2
- floor 0 : 2
- for 0 : 10
- for 0 to : 2
- for a 0 : 3
- for his 0 : 5
- for the 0 : 7
- for the 0 of : 3
- for the 0 of the : 2
- for the 0 to : 3
- for your 0 : 2
- from 0 : 8
- from 0 this : 2
- from 0 to : 3
- from his 0 : 2
- from the 0 : 13
- from the 0 and : 2
- from the 0 of : 2
- gave a 0 : 2
- get a 0 : 2
- get off you 0 : 3
- going to 0 and : 2
- good 0 : 4
- good 0 harry : 2
- got 0 : 2
- got a 0 : 4
- got the 0 : 2
- got to 0 : 2
- gryffindor 0 : 3
- had 0 : 10
- had 0 a : 2
- had 0 the : 6
- had 0 to : 3
- had a 0 : 2
- hagrid 0 : 2
- hand and 0 : 3
- hands 0 on the : 2
- harry 0 : 35
- harry 0 down : 2
- harry 0 his : 6
- harry 0 open the : 2
- harry 0 the : 11
- harry 0 then : 2
- harry 0 to : 2
- harry felt his 0 : 2
- harry said 0 : 4
- harry was 0 : 3
- harrys 0 : 5
- harrys 0 and : 3
- has 0 : 2
- have 0 : 5
- have to 0 : 2
- he 0 : 30
- he 0 a : 2
- he 0 a few : 2
- he 0 around the : 2
- he 0 it : 3
- he 0 the : 6
- he 0 to : 2
- he had 0 : 4
- he said 0 : 8
- he was 0 : 6
- head 0 : 2
- hed 0 : 3
- her 0 : 9
- her 0 and : 2
- her 0 the : 2
- her 0 to : 2
- hermione 0 : 6
- hermione 0 her : 2
- hermione with 0 : 2
- hes 0 : 3
- hes an 0 : 2
- him 0 : 7
- him 0 his : 2
- him a 0 of : 3
- him harry 0 : 2
- him to 0 his : 2
- himself 0 : 3
- his 0 : 58
- his 0 again and : 2
- his 0 and : 5
- his 0 from the : 2
- his 0 he was : 2
- his 0 to : 2
- his 0 too : 2
- his 0 was : 2
- his 0 were : 2
- his eyes 0 : 2
- his wand 0 : 2
- how 0 : 2
- i 0 : 18
- i 0 as a : 2
- i 0 he : 2
- i 0 the : 5
- i 0 to : 3
- i saw 0 : 2
- i was 0 : 2
- if 0 : 6
- im 0 : 3
- in 0 : 40
- in 0 and : 5
- in 0 of : 3
- in 0 the : 3
- in a 0 : 13
- in a 0 of : 6
- in an 0 : 2
- in front of the 0 : 2
- in her 0 : 2
- in his 0 : 6
- in his 0 the : 2
- in professor 0 : 3
- in the 0 : 27
- in the 0 and : 4
- in the 0 of : 4
- in the 0 of the : 4
- in the 0 the : 2
- in their 0 : 3
- inside the 0 : 2
- into 0 : 6
- into 0 all : 2
- into a 0 : 9
- into a 0 and : 3
- into the 0 : 17
- is 0 : 5
- is a 0 : 3
- it 0 : 21
- it 0 a : 2
- it 0 he : 2
- it 0 in the : 2
- it 0 the : 3
- it 0 youre : 2
- it the 0 : 2
- it was 0 : 6
- it was a 0 : 2
- its 0 : 14
- its 0 to : 2
- its a 0 : 2
- its long 0 : 2
- large 0 : 2
- like 0 : 5
- like a 0 : 7
- like an 0 : 2
- little 0 : 2
- looked 0 : 3
- lupin 0 : 3
- madam 0 : 8
- malfoy 0 : 6
- me 0 : 5
- me the 0 : 2
- more 0 : 2
- my 0 : 13
- my 0 and : 2
- my 0 professor : 2
- my 0 the : 2
- never 0 : 4
- neville 0 : 3
- next 0 : 2
- no 0 : 5
- no 0 no : 2
- not 0 : 3
- nothing 0 : 2
- now 0 : 4
- of 0 : 144
- of 0 and : 8
- of 0 and the : 2
- of 0 black : 2
- of 0 had : 2
- of 0 harry : 2
- of 0 harrys : 2
- of 0 he : 2
- of 0 in his : 2
- of 0 of : 2
- of 0 on the : 2
- of 0 or : 2
- of 0 the : 6
- of 0 to : 5
- of 0 was : 5
- of a 0 : 12
- of harrys 0 : 2
- of her 0 : 3
- of his 0 : 13
- of his 0 and : 4
- of his 0 he : 2
- of his 0 the : 2
- of magic 0 : 3
- of people 0 : 2
- of some 0 : 2
- of that 0 : 2
- of the 0 : 45
- of the 0 had : 2
- of the 0 in the : 4
- of the 0 school : 2
- of their 0 : 3
- of them 0 : 3
- off 0 : 3
- off a 0 : 2
- off his 0 : 2
- off the 0 : 4
- old 0 : 4
- on 0 : 17
- on a 0 : 2
- on his 0 : 6
- on the 0 : 17
- on the 0 and : 2
- on the 0 and the : 2
- on the 0 floor : 2
- on the 0 of : 4
- on to 0 : 2
- once 0 : 2
- one 0 : 3
- onto 0 : 2
- onto a 0 : 2
- onto the 0 : 2
- or 0 : 2
- or 0 the : 2
- out 0 : 7
- out of 0 : 7
- out of a 0 : 2
- out of the 0 : 6
- out of the 0 and : 2
- out of the 0 of his : 3
- over 0 : 3
- over and 0 to : 2
- over his 0 : 2
- over in the 0 : 3
- over the 0 : 4
- potter 0 : 2
- professor 0 : 12
- ron 0 : 7
- ron 0 his : 3
- ron 0 the : 3
- ron was 0 : 2
- room 0 : 3
- said 0 : 8
- said aunt 0 : 2
- said hagrid 0 : 4
- said harry 0 : 2
- said harry 0 his : 2
- said hermione 0 : 3
- said lupin 0 : 2
- said lupin 0 he : 2
- said lupin 0 the : 2
- said professor 0 : 2
- said ron 0 : 5
- said snape 0 : 2
- said the 0 : 4
- seemed to be 0 : 2
- she 0 : 8
- she 0 her : 3
- slytherin 0 : 2
- snape 0 : 2
- some 0 : 6
- some 0 of : 2
- something 0 : 5
- still 0 : 3
- suddenly 0 : 3
- than 0 : 3
- that 0 : 20
- that 0 of : 2
- that 0 the : 3
- that 0 was : 3
- that a 0 : 2
- that had 0 on the : 2
- that the 0 : 7
- that the 0 was : 2
- that was 0 : 2
- thats the 0 : 2
- the 0 : 226
- the 0 a : 3
- the 0 against the dark : 2
- the 0 an : 2
- the 0 and : 11
- the 0 and the : 2
- the 0 as : 3
- the 0 at : 2
- the 0 came : 2
- the 0 didnt : 2
- the 0 door : 2
- the 0 had : 8
- the 0 harry : 4
- the 0 he : 2
- the 0 i : 2
- the 0 in : 4
- the 0 is : 3
- the 0 of : 24
- the 0 of a : 5
- the 0 of his : 2
- the 0 of magic : 2
- the 0 of the : 13
- the 0 of their : 3
- the 0 on harrys : 2
- the 0 on the : 2
- the 0 suddenly : 2
- the 0 the : 3
- the 0 then : 2
- the 0 to : 2
- the 0 to the : 3
- the 0 was : 10
- the 0 were : 4
- the 0 with the : 2
- the 0 would : 2
- the 0 you : 2
- the castle 0 : 3
- the dark 0 : 2
- the door 0 : 2
- the front 0 and : 2
- the gryffindor 0 : 2
- the quidditch 0 : 2
- the slytherin 0 : 2
- their 0 : 15
- their 0 about : 2
- them 0 : 4
- then 0 : 6
- then 0 up the : 2
- there are 0 of : 2
- there was a 0 : 9
- there was a 0 of : 2
- there was a large 0 : 2
- there was another 0 of : 2
- there was his 0 : 2
- they 0 : 8
- they 0 around the : 2
- they 0 the : 5
- they 0 through the : 3
- they had 0 the : 2
- they heard 0 : 2
- they were 0 the : 2
- this 0 : 8
- though 0 : 2
- three 0 : 4
- through the 0 : 9
- to 0 : 62
- to 0 a : 10
- to 0 a large : 2
- to 0 an : 2
- to 0 and : 4
- to 0 another : 2
- to 0 anything : 2
- to 0 him : 4
- to 0 him in : 2
- to 0 his : 10
- to 0 in : 2
- to 0 it : 2
- to 0 me : 2
- to 0 my : 2
- to 0 on : 2
- to 0 some : 2
- to 0 the : 26
- to 0 the gryffindor : 2
- to 0 their : 2
- to 0 uncle : 2
- to 0 who : 2
- to 0 you : 2
- to a 0 : 6
- to be 0 : 3
- to be the 0 : 2
- to his 0 : 4
- to professor 0 : 3
- to the 0 : 22
- to the 0 and : 2
- to the 0 for the : 2
- too 0 to : 3
- took 0 : 2
- toward 0 : 2
- toward the 0 : 5
- trying to 0 the : 2
- two 0 : 6
- two 0 of : 2
- two 0 on the : 2
- uncle vernon 0 his : 3
- under 0 : 2
- under a 0 : 2
- under his 0 : 2
- under the 0 : 2
- up 0 : 5
- up 0 the : 2
- up a 0 : 2
- up and 0 : 3
- up and down the 0 : 3
- up the 0 : 10
- up the 0 of his : 2
- very 0 : 8
- very 0 to : 2
- wand 0 : 2
- was 0 : 30
- was 0 an : 2
- was 0 and : 8
- was 0 by : 2
- was 0 from the : 2
- was 0 in : 4
- was 0 in a : 2
- was 0 so : 2
- was 0 to : 3
- was a 0 : 5
- was still 0 : 2
- was the 0 : 2
- wasnt 0 : 2
- we 0 : 4
- we must 0 : 2
- weasley 0 : 3
- well 0 you : 2
- were 0 : 10
- were 0 the : 2
- were 0 to : 2
- what 0 : 2
- when 0 : 6
- when they 0 : 2
- where 0 and : 2
- which he 0 : 2
- while 0 : 2
- who 0 the : 2
- why 0 : 2
- will 0 : 3
- will be 0 the : 2
- with 0 : 32
- with 0 and : 4
- with 0 of : 2
- with a 0 : 15
- with a 0 and : 4
- with a 0 of : 5
- with his 0 : 3
- with its 0 : 3
- with long 0 : 2
- with my 0 : 2
- with the 0 : 8
- with the 0 he : 2
- with the 0 of : 2
- with the 0 of the : 3
- wood 0 : 3
- yeh 0 : 4
- you 0 : 22
- you 0 and : 2
- you 0 have : 2
- you 0 the : 2
- you the 0 : 2
- your 0 : 11
- your 0 and : 2
- your 0 he said : 2
- your 0 you : 2
- youre 0 : 3
- youre 0 a : 2
+were 0 in : 2
+the 0 on the : 2
+0 in a : 4
+0 on the : 10
+with a 0 : 8
+of a 0 : 6
+0 full of : 2
+of the 0 : 17
+out of the 0 : 3
+out of a 0 : 2
+up his 0 : 2
+under his 0 : 2
+0 said lupin : 2
+off the 0 : 2
+0 he said : 4
+up the 0 : 6
+and he 0 the : 2
+of his 0 : 3
+against the 0 : 4
+with the 0 : 3
+the 0 had : 5
+and 0 a : 4
+0 harry had the : 2
+as they 0 : 2
+0 that the : 2
+there was a 0 of : 2
+0 on his : 2
+0 it was : 3
+in the 0 and : 2
+and a 0 : 5
+0 we will be : 2
+0 out of the : 3
+as 0 as : 2
+for a 0 of : 2
+to 0 the : 10
+the 0 cloak let us in and we can take it off yeh : 2
+to 0 a large : 2
+0 to the : 7
+as a 0 : 4
+the 0 is : 2
+with an 0 : 2
+and 0 of : 5
+its a 0 : 2
+of 0 and : 12
+at the 0 : 7
+there was another 0 of : 2
+into a 0 : 5
+0 to a : 4
+full of 0 : 3
+like a 0 : 4
+he said 0 : 2
+expecto 0 expecto : 2
+her 0 and : 4
+0 he had : 3
+and 0 down : 2
+so 0 he was : 2
+0 had been : 2
+that 0 from the : 2
+there was a 0 : 3
+0 down the : 3
+0 said snape : 2
+in 0 and : 3
+you 0 you : 2
+in his 0 : 4
+of 0 in : 2
+of the 0 the : 2
+one 0 and : 2
+with 0 and : 3
+to the 0 : 8
+0 ron roared : 2
+to 0 his : 4
+0 from his : 2
+0 who was : 2
+very 0 in the : 2
+against the 0 and : 2
+0 across the : 4
+in the 0 : 10
+and 0 that : 2
+from 0 to : 2
+0 said dumbledore : 2
+got a 0 : 3
+around the 0 : 3
+0 and a : 6
+of harrys 0 : 2
+in a 0 of : 4
+down the 0 : 2
+the 0 of : 12
+0 professor trelawney : 3
+to be 0 : 2
+and 0 from : 2
+in a 0 : 12
+and a 0 of : 2
+0 into the : 6
+and his 0 : 3
+and 0 the : 11
+of 0 the : 4
+0 into his : 2
+0 theres nothing : 2
+of 0 i : 2
+of 0 harrys : 2
+the 0 that : 2
+him 0 the : 2
+of 0 on the : 2
+0 is a : 2
+0 professor dumbledore : 2
+for his 0 : 3
+you 0 the : 2
+people were 0 : 3
+against the dark 0 : 3
+0 of them : 2
+he was 0 : 4
+0 get off you : 3
+0 from inside hagrids : 2
+gave a 0 : 2
+0 to his : 3
+whats the 0 : 2
+through the 0 : 3
+0 the quidditch : 2
+0 and they were : 2
+that looked like 0 : 2
+0 hands and : 2
+said hagrid 0 : 2
+to a 0 : 3
+0 when they : 2
+a 0 of : 14
+0 said ron : 2
+0 it was the : 2
+and the 0 of : 2
+the 0 were : 2
+as though 0 had : 2
+it was 0 : 2
+but a 0 : 2
+up and down the 0 : 2
+0 over the : 5
+on the 0 the : 2
+0 as he : 3
+0 against the : 5
+his 0 was : 2
+the 0 of a : 3
+harry 0 open the : 2
+and the 0 : 9
+the front 0 and : 2
+book of 0 : 3
+onto the 0 : 2
+0 was the : 2
+0 by the : 2
+0 the rest of the : 2
+on the 0 : 9
+0 through the : 6
+for the 0 to : 2
+0 said harry : 2
+the 0 came : 2
+on the 0 of : 2
+0 of the : 7
+the 0 of the : 7
+behind the 0 : 3
+lupin 0 the : 3
+it 0 the : 2
+of magical 0 : 2
+were 0 with : 2
+with 0 of : 3
+there was a large 0 : 2
+under the 0 : 3
+across the 0 : 2
+along the 0 : 3
+0 he was : 4
+from the 0 : 6
+0 i was : 2
+0 were no : 2
+of 0 was : 2
+is a 0 : 2
+the 0 a : 3
+0 and it was : 2
+was 0 and : 5
+0 in the : 14
+0 around the : 3
+0 uncle vernon : 2
+of the 0 in the : 3
+0 at the : 7
+at hogwarts for the 0 and : 2
+and 0 his : 2
+and 0 to : 3
+the 0 was : 5
+0 at him : 2
+on his 0 : 3
+0 tower room : 2
+to 0 and : 2
+and a very 0 : 2
+0 did he : 2
+enough to 0 a : 2
+0 he muttered : 2
+0 as the : 2
+with a 0 of : 2
+the 0 open and : 2
+0 and i : 2
+0 aunt marge : 3
+in 0 the : 2
+0 said professor : 2
+0 in his : 4
+by a 0 : 4
+0 and the : 8
+0 as a : 3
+but he didnt 0 to : 2
+0 of a : 4
+of their 0 : 2
+but he 0 the : 2
+for the 0 : 3
+of 0 black : 2
+0 out of their : 2
+about his 0 : 2
+had a 0 : 3
+and 0 were : 2
+the 0 to the : 2
+as the 0 : 5
+as he 0 : 2
+the 0 and : 5
+0 harry harry : 2
+and 0 and : 2
+his wand 0 : 2
+harry 0 the : 2
+he 0 it : 2
+over the 0 : 4
+0 from a : 2
+and 0 up his : 2
+by the 0 : 3
+0 with a : 7
+0 from the : 3
+was 0 in his : 2
+0 like a : 2
+of his 0 two : 2
+to his 0 : 2
+the 0 into the : 2
+a 0 in the : 2
+a very 0 : 2
+0 along the : 3
+and 0 her great : 2
+into the 0 : 9
+0 and harry : 3
+that the 0 : 2
+there was a great 0 of : 2

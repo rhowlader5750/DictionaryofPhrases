@@ -19,12 +19,15 @@ Encode all parametric phrases
 #include <algorithm>
 #include <vector>
 #include <bits/stdc++.h>
-#include "cleanText_Dict.cc"
-#include "findPhrases.cc"
+#include "DictofPhrases.cc"
+#include <ctime>
 using namespace std;
 
 int main() {
+    // Start the clock
+    clock_t start = clock();
   
+  //clean the text
     ofstream out("outputClean.txt");
     string cleaned;
     cleaned = clean("books/HP1.txt");
@@ -35,25 +38,25 @@ int main() {
     out << cleaned;
    cout << "Done cleaning 3 Harry Potter books." << endl;
   
-    dictionary("outputClean.txt");
-
-    string lookAt = reWrite(cleaned, "nofrequency.txt");
-    cout << "Rewrote book after ommiting non frequent words." << endl;
-    
-    map<string, int> wordCounts = findingPhrases(lookAt);
+  //create the dictionary
+    unordered_map<string, int> dict = dictionary(cleaned);
+    cout << "Done creating dictionary." << endl;
+    //find the common phrases
     ofstream output("phrases.txt");
-    for (const auto& kvp : wordCounts) {
-        if(kvp.second > 1)
-            output << kvp.first << ": " << kvp.second << endl;
+    unordered_map<string, int> phrases;
+     phrases = getSubstrings(cleaned, dict);
+    for(auto i: phrases){
+        if(i.second > 1)
+            output << i.first << ": " << i.second << endl;
     }
-    cout << "Done finding phrases." << endl;
+    cout << "Done finding common phrases." << endl;
 
-     map<string, int> phraseFound = moreThanOne(wordCounts);
-    ofstream outputFinal("phrasesFound.txt");
-    for (const auto& p : phraseFound) {
-        if(p.second > 3)
-            outputFinal << p.first << ": " << p.second << endl;
-    }
-    cout << "Done cleaning data." << endl;
+    // Stop the clock
+    clock_t end = clock();
+    double elapsed_time = double(end - start) / CLOCKS_PER_SEC;
+
+    // Print the elapsed time
+    cout << "Elapsed time: " << elapsed_time << " seconds" << endl;
+
   return 0;
 }
