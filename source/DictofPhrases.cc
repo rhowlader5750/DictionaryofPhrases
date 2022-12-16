@@ -67,8 +67,6 @@ unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> 
     return newMap;
 }
 
-
-
 unordered_map<string, int> encoding(vector<pair<string, int>>& dictionary){
   int k = 0;
   ofstream out("dictionary.txt");

@@ -1,0 +1,15 @@
+This file contains all online resources used for this project. 
+
+https://www.tutorialspoint.com/cpp_standard_library/cpp_unordered_map_find.htm#:~:text=The%20C%2B%2B%20function%20std%3A%3A,the%20map%3A%3Aend().
+https://www.geeksforgeeks.org/unordered_map-end-function-in-c-stl/
+https://www.geeksforgeeks.org/lzw-lempel-ziv-welch-compression-technique/
+https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+https://www.youtube.com/watch?v=KJBZyPPTwo0&t=321s
+https://www.geeksforgeeks.org/sorting-a-map-by-value-in-c-stl/
+https://www.geeksforgeeks.org/map-vs-unordered_map-c/
+https://www.geeksforgeeks.org/unordered_map-at-cpp/
+https://www.geeksforgeeks.org/vector-of-unordered-maps-in-c-with-examples/
+https://www.geeksforgeeks.org/unordered_map-insert-in-c-stl/
+https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/
+https://www.youtube.com/watch?v=co4_ahEDCho
+
