@@ -25,8 +25,27 @@ unordered_map<string, int> moreThanOne(unordered_map<string, int> wordCounts){
   return newMap;
 }
 
-unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words)
-{
+unordered_map<string, int> encodingPhrases(unordered_map<string, int> phrases, unordered_map<string, int> dict){
+  unordered_map<string, int> newMap;
+  for(auto& i: phrases){
+    string phrase = i.first;
+    stringstream ss(phrase);
+    string word;
+    string newPhrase = "";
+    while (ss >> word) {
+      if(dict.find(word) != dict.end()){
+        newPhrase += to_string(dict[word]) + " ";
+      }else{
+        newPhrase += "0 ";
+      }
+    }
+    newMap.insert({newPhrase, i.second});
+  }
+  return newMap;
+}
+
+
+unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words){
     unordered_map<string, int> substrings;
     int count = 0;
     // iterate through the string
