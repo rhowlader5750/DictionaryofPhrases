@@ -8,6 +8,7 @@
 #include <vector>
 #include <bits/stdc++.h>
 #include "DictofPhrases.cc"
+#include "Decode.cc"
 #include <ctime>
 using namespace std;
 
@@ -37,6 +38,14 @@ int main() {
       output << i.first << ": " << i.second << endl;
     }
     cout << "Done finding common phrases." << endl;
+
+  //  decode the phrases
+    ofstream dec("decoded.txt");
+    unordered_map<string, int> decoded = decoding(dict, phrases);
+    for(auto i: decoded){
+      dec << i.first << ": " << i.second << endl;
+    }
+    cout << "Done decoding phrases." << endl;
 
 
     // Stop the clock
