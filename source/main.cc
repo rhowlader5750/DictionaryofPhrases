@@ -28,12 +28,18 @@ int main() {
    cout << "Done cleaning 3 Harry Potter books." << endl;
   
   //create the dictionary
-    unordered_map<string, int> dict = dictionary(cleaned);
+  cout<< "Choose the k most common words to be in the dictionary: ";
+  int k;
+  cin >> k;
+    unordered_map<string, int> dict = dictionary(cleaned, k);
     cout << "Done creating dictionary." << endl;
     //find the common phrases
     ofstream output("phrases.txt");
     unordered_map<string, int> phrases;
-     phrases = getSubstrings(cleaned, dict);
+    cout << "Choose the f most common phrases to be in the dictionary: ";
+    int f;
+    cin >> f;
+     phrases = getSubstrings(cleaned, dict, f);
     for(auto i: phrases){
       output << i.first << ": " << i.second << endl;
     }

@@ -27,7 +27,7 @@ unordered_map<string, int> moreThanOne(unordered_map<string, int> wordCounts){
 
 unordered_map<string, int> encodingPhrases(vector<pair<string, int>>& phrases, unordered_map<string, int> dict){
   unordered_map<string, int> newMap;
-  int k = 500;
+  int count = dict.size();
   for(auto& i: phrases){
     string phrase = i.first;
     stringstream ss(phrase);
@@ -40,21 +40,21 @@ unordered_map<string, int> encodingPhrases(vector<pair<string, int>>& phrases, u
         newPhrase += "0 ";
       }
     }
-    k++;
-    newMap.insert({newPhrase, k});
+    count++;
+    newMap.insert({newPhrase, count});
   }
   return newMap;
 }
 
-unordered_map<string, int> encoding(vector<pair<string, int>>& dictionary){
-  int k = 0;
+unordered_map<string, int> encoding(vector<pair<string, int>>& dictionary, int k){
+  int count = 0;
   ofstream out("dictionary.txt");
    vector<pair<string, int>> vec;
    //add the 500 most common words to the vector and assign their id
   for(auto& kvp : dictionary){
-    k++;
-    if(k <= 500){
-      vec.push_back({kvp.first, k});
+    count++;
+    if(count <= k){
+      vec.push_back({kvp.first, count});
     }    
   }
   unordered_map<string, int> newMap;
@@ -85,7 +85,7 @@ vector<pair<string, int>> sort(unordered_map<string, int>& words){
   return vec;
 }
 
-unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words){
+unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> words, int f){
   ofstream out("substrings.txt");
     unordered_map<string, int> substrings;
     int count = 0;
@@ -126,7 +126,7 @@ unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> 
     unordered_map<string, int> checkIfPhrase = moreThanOne(substrings);
     unordered_map<string, int> withFreq;
     for(auto& i: checkIfPhrase){
-      if(i.second > 1){
+      if(i.second > f){
         withFreq.insert(i);
       }
     }
@@ -138,7 +138,7 @@ unordered_map<string, int> getSubstrings(string str, unordered_map<string, int> 
     return checkIfPhrase;
 }
 
-unordered_map<string, int> dictionary(string book) {
+unordered_map<string, int> dictionary(string book, int k) {
   unordered_map<string, int> wordCounts;
   // Read each word from the file and update its count in the map
   string word;
@@ -150,7 +150,7 @@ unordered_map<string, int> dictionary(string book) {
   //sort the dictionary by the frequency of the words
   sorted = sort(wordCounts);
   //assign the id to the words
-  wordCounts = encoding(sorted);
+  wordCounts = encoding(sorted, k);
   return wordCounts;
 }
 
